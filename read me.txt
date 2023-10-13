@@ -1,0 +1,5 @@
+Bu projede terraform ile altyapı oluşturup ansible ile bu altyapıyı  yöneterek phonebook uygulamasını çalıştırmak
+myvars.auto.tfvars dosyasında key pair adını değiştirin.Key pairinizi kullanıcılar altındaki .ssh taşıyın.Vscode aracılığıyla
+terraform kodlarını çalıştırın.Kaynaklar oluştuktan sonra control node bağlanın ve Read me handsondaki adımları uygulayın.
+
+
