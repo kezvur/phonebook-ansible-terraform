@@ -1,4 +1,4 @@
-Part 2 - Install Ansible on the Controller Node
+## Part 1 - Install Ansible on the Controller Node
 
 - Run the terraform files in github repo.
 
@@ -14,7 +14,7 @@ $ ansible --version
 
 - Show and exlain the files (`ansible.cfg`, `inventory.txt`) that created by terraform.
 
-## Part 3 - Pinging the Target Nodes
+## Part 2 - Pinging the Target Nodes
 
 - Make a directory named ```ansible-lesson``` under the home directory and cd into it.
 
@@ -49,7 +49,7 @@ ansible-playbook ping-playbook.yml
 
 - Explain the output of the above command.
 
-## Part4 - Install, Start, Enable Mysql and Run The Phonebook App.
+## Part 3 - Install, Start, Enable Mysql and Run The Phonebook App.
 
 - Create a playbook name `db_config.yml` and configure db_server.
 
